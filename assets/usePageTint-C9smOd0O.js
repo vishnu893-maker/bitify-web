@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{t}from"./react-DlmbjZJV.js";var n=e(t(),1);function r(e){(0,n.useEffect)(()=>{let t=document.getElementById(`scrollable-page`);if(t&&e)return t.style.setProperty(`--page-tint`,e.background),t.dataset.tint=e.dark?`dark`:`light`,()=>{t.style.removeProperty(`--page-tint`),delete t.dataset.tint}},[e])}export{r as t};
