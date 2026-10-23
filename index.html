@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // The extension trusts https://bitchord.in only (web/extension/site.config.ts),
+      // so www goes there before anything loads, keeping its path and query.
+      if (location.hostname === 'www.bitchord.in') location.replace('https://bitchord.in' + location.pathname + location.search + location.hash);
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1f1f1f" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+    <title>Bitify</title>
+    <link rel="icon" type="image/svg+xml" href="/bitify-web/favicon.svg" />
+    <!-- DM Sans is the app's typeface (web/docs/apple-music-dom.md, "Font"). -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..800;1,9..40,400..800&display=swap"
+    />
+    <script type="module" crossorigin src="/bitify-web/assets/index-dmTpNqu_.js"></script>
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/rolldown-runtime-XKyaHtl9.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/react-zfZ2Wog0.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/bridge-W0f3WJVt.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/preload-helper-C86UubiB.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/trackLog-9IdX59Cu.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/innertube-DLE6uiTL.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/api-DwuhONub.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/queries-CXpE3TSv.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/PageHeader-CqxryoDO.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/resolve-BD70pb4z.js">
+    <link rel="modulepreload" crossorigin href="/bitify-web/assets/createLucideIcon-i45FAAh8.js">
+    <link rel="stylesheet" crossorigin href="/bitify-web/assets/index-CMgQfgB1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
