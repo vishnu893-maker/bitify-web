@@ -1,0 +1,1 @@
+import{x as e}from"./bridge-Cez6sVpF.js";var t=e();function n({title:e}){return(0,t.jsx)(`div`,{className:`mx-(--body-gutter) pt-8`,children:(0,t.jsx)(`h1`,{className:`type-header-emphasized`,children:e})})}export{n as t};
