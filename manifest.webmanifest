@@ -1,0 +1,13 @@
+{
+  "name": "Bitify — Aesthetic YouTube Music Client",
+  "short_name": "Bitify",
+  "description": "Search, stream and listen together — YouTube Music in a clean, Apple-inspired player. Free, open source, on every browser.",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fa2d48",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
