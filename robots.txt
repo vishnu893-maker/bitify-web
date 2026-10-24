@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /debug
 
-Sitemap: https://bitify.vercel.app/sitemap.xml
+Sitemap: https://bitify-two.vercel.app/sitemap.xml
